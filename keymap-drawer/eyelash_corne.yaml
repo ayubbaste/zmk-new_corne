@@ -149,7 +149,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - $$mdi:keyboard-tab$$
-  - BRIU
+  - BRIGHTNESS UP
   - RGB BRI
   - RGB EFF
   - RGB HUI
@@ -162,7 +162,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-control$$
-  - BRID
+  - BRIGHTNESS DOWN
   - RGB BRD
   - RGB EFR
   - RGB HUD
