@@ -90,8 +90,8 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL   &kp DQT    &kp NUHS    &kp SEMI   &kp PRCNT                            &mmv MOVE_UP                     &kp EQUAL   &trans      &kp LPAR    &kp RPAR    &trans   &kp BSPC
-&trans  &kp COLON  &kp QMARK  &kp ASTRK   &kp LPAR   &kp RPAR             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PLUS    &kp ASTRK   &kp LBRC    &kp RBRC  &kp PIPE  &kp GRAVE
+&trans  &kp EXCL   &kp AT     &kp HASH    &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp EQUAL   &trans      &kp LPAR    &kp RPAR    &trans   &kp BSPC
+&trans  &kp COLON  &kp AMPS   &kp ASTRK   &kp LPAR   &kp RPAR             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PLUS    &kp ASTRK   &kp LBRC    &kp RBRC  &kp PIPE  &kp GRAVE
 &trans  &trans     &trans     &trans      &trans     &trans   &trans                    &mmv MOVE_DOWN                   &kp MINUS   &kp FSLH    &trans      &trans      &kp BSLH  &kp TILDE
                                     &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
             >;
@@ -102,9 +102,9 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&kp TAB    &trans    &rgb_ug RGB_BRI  &rgb_ug RGB_EFF   &rgb_ug RGB_HUI   &bt BT_NXT                &mmv MOVE_UP                     &kp F1       &kp F2     &kp F3       &kp F4      &trans           &kp BSPC
-&kp LCTRL    &trans  &rgb_ug RGB_BRD  &rgb_ug RGB_EFR   &rgb_ug RGB_HUD   &bt BT_PRV    &mmv MOVE_LEFT  &trans         &mmv MOVE_RIGHT  &kp F5       &kp F6     &kp F7       &kp F8      &trans           &trans
-&kp LSHIFT  &trans  &trans           &rgb_ug RGB_OFF   &rgb_ug RGB_ON    &bt BT_CLR_ALL   &kp C_MUTE                    &mmv MOVE_DOWN                   &kp F9       &kp F10    &kp F11      &kp F12     &trans           &trans
+&kp TAB    &rgb_ug RGB_EFR  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF   &rgb_ug RGB_HUI   &bt BT_NXT                &mmv MOVE_UP                     &kp F1       &kp F2     &kp F3       &kp F4      &trans           &kp BSPC
+&kp LCTRL  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_EFR   &rgb_ug RGB_HUD   &bt BT_PRV   &mmv MOVE_LEFT  &trans         &mmv MOVE_RIGHT  &kp F5       &kp F6     &kp F7       &kp F8      &trans           &trans
+&kp LSHIFT &trans           &trans           &rgb_ug RGB_OFF   &rgb_ug RGB_ON    &bt BT_CLR_ALL   &kp C_MUTE                    &mmv MOVE_DOWN                   &kp F9       &kp F10    &kp F11      &kp F12     &trans           &trans
                                        &trans            &trans            &trans                                                                   &trans       &trans     &trans
             >;
 
