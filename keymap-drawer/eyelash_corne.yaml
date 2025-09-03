@@ -101,9 +101,9 @@ layers:
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
-  - '"'
+  - '@'
   - '#'
-  - {t: ;, s: ':'}
+  - $
   - '%'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '=', s: +}
@@ -114,7 +114,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - ':'
-  - '?'
+  - '&'
   - '*'
   - (
   - )
@@ -149,7 +149,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB EFR
   - RGB BRI
   - RGB EFF
   - RGB HUI
@@ -162,7 +162,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB EFF
   - RGB BRD
   - RGB EFR
   - RGB HUD
