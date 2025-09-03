@@ -81,7 +81,7 @@
 &trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                                         &mmv MOVE_UP                     &none         &kp PG_DN      &kp PG_UP      &none         &none   &kp BSPC
 &trans  &kp N6           &kp N7          &kp N8        &kp N9        &kp N0                        &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &none  &none
 &trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &none        &none        &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp BSPC        &none          &none          &kp DEL          &none   &none
-                                         &trans        &trans        &trans                                                                          &kp INS          &kp INS          &kp INS
+                                         &trans        &trans        &trans                                                                          &trans          &trans          &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
