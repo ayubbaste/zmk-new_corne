@@ -94,9 +94,9 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&kp TAB    &rgb_ug RGB_EFR  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF   &rgb_ug RGB_HUI   &bt BT_NXT                &mmv MOVE_UP                     &kp F1       &kp F2     &kp F3       &kp F4      &trans           &kp BSPC
-&kp LCTRL  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_EFR   &rgb_ug RGB_HUD   &bt BT_PRV   &mmv MOVE_LEFT  &trans         &mmv MOVE_RIGHT  &kp F5       &kp F6     &kp F7       &kp F8      &trans           &trans
-&kp LSHIFT &trans           &trans           &rgb_ug RGB_OFF   &rgb_ug RGB_ON    &bt BT_CLR_ALL   &kp C_MUTE                    &mmv MOVE_DOWN                   &kp F9       &kp F10    &kp F11      &kp F12     &trans           &trans
+&trans    &rgb_ug RGB_EFR  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF   &rgb_ug RGB_HUI   &bt BT_NXT                &mmv MOVE_UP                     &kp F1       &kp F2     &kp F3       &kp F4      &trans           &kp BSPC
+&trans  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_EFR   &rgb_ug RGB_HUD   &bt BT_PRV   &mmv MOVE_LEFT  &trans         &mmv MOVE_RIGHT  &kp F5       &kp F6     &kp F7       &kp F8      &trans           &trans
+&trans &trans           &trans           &rgb_ug RGB_OFF   &rgb_ug RGB_ON    &bt BT_CLR_ALL   &kp C_MUTE                    &mmv MOVE_DOWN                   &kp F9       &kp F10    &kp F11      &kp F12     &trans           &trans
                                        &trans            &trans            &trans                                                                   &trans       &trans     &trans
             >;
 
