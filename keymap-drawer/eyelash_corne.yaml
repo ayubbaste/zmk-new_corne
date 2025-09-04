@@ -148,7 +148,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - RGB EFR
   - RGB BRI
   - RGB EFF
@@ -161,7 +161,7 @@ layers:
   - F4
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - RGB EFF
   - RGB BRD
   - RGB EFR
@@ -176,7 +176,7 @@ layers:
   - F8
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
