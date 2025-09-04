@@ -123,8 +123,8 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - +
   - '*'
-  - '{'
-  - '}'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - '|'
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
